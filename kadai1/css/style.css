@@ -10,24 +10,27 @@ section{
     scroll-snap-align: start;
 }
 .hero{
+    background-color: #0102053f;
     background-image: url(../images/architecture-3741907_1280.jpg);
-    text-align: inherit;
-    padding-top: 0vh;
-    color: rgb(251, 247, 247);
+    background-blend-mode: darken ;
+    text-align: center;
+    padding-top: 10vh;
+    color: #d9edf7;
     font-family: 'BIZ UDGothic', sans-serif;
     
 }
 .title{
     font-family: 'Londrina Shadow', cursive;
     font-size:4.5rem ;
-    color: rgb(251, 253, 255);
+    color: rgb(230, 233, 240);
+    text-shadow: 2px 3px 15px rgba(12, 91, 125, 0.8);
     
 }
 .menu{
     background-image: url(../images/drink-84533_1280.jpg);
     text-align: center;
     padding-top: 10vh;
-    color: rgba(14, 5, 13, 0.977);
+    color: rgba(250, 248, 249, 0.977);
     
 }
 .wrapper{
@@ -44,7 +47,9 @@ section{
 }
 
 .contact{
+    background-color: rgba(231, 141, 58, 0.37);
     background-image: url(../images/sunset-5510608_1280.jpg);
+    background-blend-mode: overlay ;
     text-align: center;
     padding-top: 10vh;
     font-size: 5vh;
