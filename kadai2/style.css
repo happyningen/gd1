@@ -1,0 +1,91 @@
+header{
+
+    margin-top: 100px;
+    text-align: center;
+}
+
+body{
+    background-image: url(images/proposal-3553141_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+h1{
+    font-size: 60px;
+    display: flex;
+    display: inline;
+    
+}
+.contents1{
+    font-size: 27px;
+    text-align: center;
+    height: 900px;
+    color: rgb(239, 243, 247);
+    margin: 100px auto;
+    letter-spacing : 0.5em;
+    
+
+}
+.room1{
+    margin-top: 500px;
+    background-color: rgba(160, 198, 229, 0.5);
+    max-width: 600px;
+    margin-left: auto;
+    padding: 3.5rem 5rem;
+    border-radius: 50px;
+}
+.room1 img{
+    width: 400px;
+}
+
+.room2{
+      margin-top: 100px;
+      background-color: rgba(181, 168, 225, 0.5);
+     height: 380px;
+    max-width: 600px;
+    margin-right: auto;
+    padding: 3.5rem 5rem;
+    border-radius: 50px;
+}
+
+.room2 img{
+    width: 400px;
+}
+
+.room3{
+    margin-top: 150px;
+    background-color: rgba(173, 238, 231, 0.5);
+    max-width: 600px;
+    width: 170%;
+    height: 390px;
+   margin-left: 60%;
+    padding: 3.5rem 5rem;
+    border-radius: 50px;
+}
+
+.room3 img{
+    width: 400px;
+}
+
+.yoyaku{
+    padding: 50px;
+}
+
+footer{
+    background: #eeeafa;
+}
+
+
+.main{
+display: flex;
+justify-content: center;
+  align-items: center;
+}
+
+.page-title{
+    margin-top: 20rem;
+    font-family: 'Kaisei Opti', serif;
+    color: rgb(179, 214, 245);
+}
