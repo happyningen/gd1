@@ -55,12 +55,12 @@ h1{
 }
 
 .room3{
-    margin-top: 150px;
-    background-color: rgba(173, 238, 231, 0.5);
+    margin-top: 100px;
+    background-color: rgba(160, 198, 229, 0.5);
     max-width: 600px;
     width: 170%;
     height: 390px;
-   margin-left: 60%;
+    margin-left: auto;
     padding: 3.5rem 5rem;
     border-radius: 50px;
 }
@@ -70,9 +70,17 @@ h1{
 }
 
 .yoyaku{
-    padding: 50px;
+    margin-top: 100px;
+    color: #2b4491;
+  text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+              -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+              0px 1px 0 #FFF,  0-1px 0 #FFF,
+              -1px 0 0 #FFF, 1px 0 0 #FFF;
 }
 
+.yoyaku a:hover {
+    background-color: rgb(209, 239, 239);
+}
 footer{
     background: #eeeafa;
 }
@@ -88,4 +96,11 @@ justify-content: center;
     margin-top: 20rem;
     font-family: 'Kaisei Opti', serif;
     color: rgb(179, 214, 245);
+}
+
+footer{
+    position: fixed;
+      bottom: 0;
+     
+    
 }
